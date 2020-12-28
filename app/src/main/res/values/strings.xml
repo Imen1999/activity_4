@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">activity 4.1</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="Name">com.example.activity41.name</string>
+    <string name="Password">com.example.activity41.password</string>
+    <string name="Checkbox">com.example.activity41.checkbox</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="remmeber_my_login_information">Remmeber my login information</string>
+
+</resources>

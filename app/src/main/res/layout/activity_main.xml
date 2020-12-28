@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutType="textPersonName"
+        android:ems="10"
+        android:id="@+id/Name"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:hint="@string/enter_name"
+        android:inputType="TODO"
+        android:autofillHints="" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="164dp"
+        android:id="@+id/Password"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/enter_password"
+        android:layoutType="textPassword"
+        android:inputType="TODO"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/boutonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Password"
+        android:layout_alignStart="@+id/Name"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="19dp"
+        android:text="@string/login" />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Password"
+        android:layout_marginTop="79dp"
+        android:text="@string/remmeber_my_login_information"
+
+        />
+
+</RelativeLayout>
